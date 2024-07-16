@@ -28,8 +28,8 @@ Bu repo, çeşitli veri yapıları ve bu yapılar üzerinde kullanılan algoritm
 ## Not:
 Her bir konu altında, ilgili veri yapısı veya algoritmanın nasıl çalıştığını anlatan açıklamalar ve örnekler bulunmaktadır. Eğer bu repo içerisinde bulunmayan özel örnekler veya kodlar eklemek isterseniz, bu konuda herhangi bir sıkıntı yoktur. Ancak eklediğiniz özel örneklerin veya kodların açıklamalarının ve kullanım senaryolarının detaylı bir şekilde belirtilmesi önemlidir. 🚀
 ## Önemli Kaynaklar:
-Geeks For Geeks Data Structure : https://www.geeksforgeeks.org/data-structures/  
-Data Structures and Algorithms - BroCode : https://www.youtube.com/watch?v=xX5iOYCJmBI&list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8
+Geeks For Geeks Data Structure : [Link](https://www.geeksforgeeks.org/data-structures/)
+Data Structures and Algorithms - BroCode : [Link](https://www.youtube.com/watch?v=xX5iOYCJmBI&list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8)
 
 # Data Structures Examples and Algorithms 📚
 This repository contains various data structures and the algorithms used with these structures. It covers the following topics:
