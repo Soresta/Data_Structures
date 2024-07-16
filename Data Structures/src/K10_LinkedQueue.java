@@ -32,18 +32,6 @@ public class K10_LinkedQueue {
         return eleman;
     }
 
-    //Soru: Kuyruğu ters çevir(yığın kullanarak) :
-    public static K10_LinkedQueue kuyrukTersCevir(K10_LinkedQueue kuyruk) {
-        K8_LinkedStack stack = new K8_LinkedStack();
-        while (!kuyruk.bosmu()) {
-            //stack.push(new K8_LinkedStack.Node(kuyruk.deQueue().icerik));
-        }
-        while (!stack.bosMu()) {
-            kuyruk.enQueue(new Node(stack.pop().icerik));
-        }
-        return kuyruk;
-    }
-
     //Kuyruğu gösteren metod.
     private void kuyrukYaz() {
         Node tmp = bas;
@@ -72,8 +60,6 @@ public class K10_LinkedQueue {
         lkuyruk.enQueue(new Node(3));
         lkuyruk.enQueue(new Node(4));
         lkuyruk.enQueue(new Node(5));
-
-        kuyrukTersCevir(lkuyruk);
         lkuyruk.kuyrukYaz();
     }
 }

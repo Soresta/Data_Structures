@@ -1,9 +1,9 @@
-public class K5_DoubleCircularLinkedList {
+public class K05_DoubleCircularLinkedList {
     //Çift yönlü dairesel bağlı liste.
     Node bas;
     Node son;
 
-    K5_DoubleCircularLinkedList() {
+    K05_DoubleCircularLinkedList() {
         bas = null;
         son = null;
     }
@@ -75,7 +75,7 @@ public class K5_DoubleCircularLinkedList {
 
     public static void main(String[] args) {
         //Test işlemleri:
-        K5_DoubleCircularLinkedList liste = new K5_DoubleCircularLinkedList();
+        K05_DoubleCircularLinkedList liste = new K05_DoubleCircularLinkedList();
         liste.ekle(new Node(1));
         liste.ekle(new Node(2));
         liste.ekle(new Node(3));

@@ -1,10 +1,10 @@
-public class K9_Queue {
+public class K09_Queue {
     //Dizi yapısı kullanılarak oluşturulan kuyruk yapısı(Linkedlist mantığı kullanılmamıştır).
     Node[] arr;
     int boyut;
     int bas,son,elemanSayisi;
 
-    K9_Queue(int boyut){
+    K09_Queue(int boyut){
         arr = new Node[boyut];
         this.boyut = boyut;
         bas = 0;
@@ -51,7 +51,7 @@ public class K9_Queue {
     }
 
     public static void main(String[] args) {
-        K9_Queue kuyruk = new K9_Queue(5);
+        K09_Queue kuyruk = new K09_Queue(5);
         kuyruk.enQueue(new Node(1));
         kuyruk.enQueue(new Node(2));
         kuyruk.enQueue(new Node(3));

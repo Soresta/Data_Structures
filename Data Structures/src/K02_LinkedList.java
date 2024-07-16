@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class K2_LinkedList {
+public class K02_LinkedList {
     Node bas;
 
-    K2_LinkedList() {
+    K02_LinkedList() {
         bas = null;
     }
 
@@ -36,7 +36,7 @@ public class K2_LinkedList {
     }
 
     //Baştan eleman silme metodu.
-    private static void bastanSil(K2_LinkedList liste) {
+    private static void bastanSil(K02_LinkedList liste) {
         if (liste.bas == null) {
             System.out.println("Liste boştur!");
             return;
@@ -101,7 +101,7 @@ public class K2_LinkedList {
     }
 
     //Listedeki elemanları yazdır.
-    public static void listeYaz(K2_LinkedList list) {
+    public static void listeYaz(K02_LinkedList list) {
         if (list.bas == null) System.out.println("Liste boş!");
         else {
             Node tmp = list.bas;
@@ -146,14 +146,14 @@ public class K2_LinkedList {
 
     //soru3 : verilen bir bağlı listenin tek sıra numaralı elemanlarını ayrı bir bağlı listede.
     //döndüren fonksiyonu yazınız!
-    public K2_LinkedList tekNumaraliAyriListe(K2_LinkedList list) {
+    public K02_LinkedList tekNumaraliAyriListe(K02_LinkedList list) {
         if (bas == null) {
             System.out.println("Verilen liste boştur, çıktı bulunmaz");
             return null;
         }
         int sayac = 0;
         Node tmp = bas;
-        K2_LinkedList tekListe = new K2_LinkedList();
+        K02_LinkedList tekListe = new K02_LinkedList();
         while (tmp != null) {
             if (sayac % 2 == 0) {
                 Node yeniEleman = new Node(tmp.sayi);
@@ -167,7 +167,7 @@ public class K2_LinkedList {
     }
 
     //soru4 : verilen bir bağlı listenin çift sıra numaralı elemanlarını silen fonksiyonu yazınız!.
-    public void ciftSiraNumaraliSil(K2_LinkedList list) {
+    public void ciftSiraNumaraliSil(K02_LinkedList list) {
         if (bas == null || bas.ileri == null) {
             System.out.println("Listede yeterli eleman yok.");
             return;
@@ -403,12 +403,12 @@ public class K2_LinkedList {
 
     //soru14 : verilen bir listenin içinden N'ye bölünen tüm elemanları silen ve yeni bir listeye ekleyip
     //o listeyi döndüren fonksiyonu yazınız.
-    public K2_LinkedList bolunenSilFarkliDondur(int n) {
+    public K02_LinkedList bolunenSilFarkliDondur(int n) {
         if (bas == null) {
             System.out.println("Liste boş");
             return null;
         } else {
-            K2_LinkedList list1 = new K2_LinkedList();
+            K02_LinkedList list1 = new K02_LinkedList();
             Node tmp, tmp2;
             tmp = bas;
             tmp2 = null;
@@ -434,7 +434,7 @@ public class K2_LinkedList {
     }
 
     //soru17 : Verilen iki sıralanmış bağlı listenin ortak elemanlarını bulan fonksiyonu yazınız.
-    public static void ortakBul(K2_LinkedList l1, K2_LinkedList l2) {
+    public static void ortakBul(K02_LinkedList l1, K02_LinkedList l2) {
         if (l1.bas == null || l2.bas == null) System.out.println("Listelerden biri boştur");
         else {
             Node tmp1, tmp2;
@@ -459,8 +459,8 @@ public class K2_LinkedList {
     //l1 = 1->3->4->6
     //l2 = 0->2->5->7
     //l3 = 0->1->2->3->4->5->6->7->null
-    public static K2_LinkedList birlestir(K2_LinkedList L1, K2_LinkedList L2) {
-        K2_LinkedList yeni = new K2_LinkedList();
+    public static K02_LinkedList birlestir(K02_LinkedList L1, K02_LinkedList L2) {
+        K02_LinkedList yeni = new K02_LinkedList();
         Node tmp1 = L1.bas;
         Node tmp2 = L2.bas;
         while (tmp1 != null && tmp2 != null) {
@@ -491,8 +491,8 @@ public class K2_LinkedList {
         return sayi;
     }
 
-    private static K2_LinkedList bagliListeye20sayiEkle() {
-        K2_LinkedList liste = new K2_LinkedList();
+    private static K02_LinkedList bagliListeye20sayiEkle() {
+        K02_LinkedList liste = new K02_LinkedList();
         int sayac = 0;
         Node tmp = liste.bas;
         while (sayac < 10) {
@@ -544,7 +544,7 @@ public class K2_LinkedList {
     // 4. Tam sayıları tutan bir bağlı listede en büyük elemanı listenin sonuna atan void listeSonuMax(BListe L) {}
     // metodunu yazınız? Örneğin; 1🡪5🡪6🡪2🡪4 olarak verilen bağlı liste 1🡪5🡪2🡪4🡪6 olmalıdır.Bağlı listedeki
     // elemanların pozitif tamsayılar olup ve birbirinden farklı olduğu varsayılacaktır.(10p).
-    private static void listeSonuMax(K2_LinkedList liste) {
+    private static void listeSonuMax(K02_LinkedList liste) {
         if (liste.bas == null) System.out.println("Liste boştur");
         else {
             Node tmp = liste.bas;
@@ -585,8 +585,8 @@ public class K2_LinkedList {
 
     public static void main(String[] args) {
         //Test etme işlemleri
-        K2_LinkedList listem1 = new K2_LinkedList();
-        K2_LinkedList listem2 = new K2_LinkedList();
+        K02_LinkedList listem1 = new K02_LinkedList();
+        K02_LinkedList listem2 = new K02_LinkedList();
         //liste 1 eelman ekle
         listem1.ekle(new Node(1));
         listem1.ekle(new Node(3));
@@ -603,7 +603,7 @@ public class K2_LinkedList {
         listeYaz(listem2);
 
         //sonuç listeye metodu ata
-        K2_LinkedList sonucListe = birlestir(listem1, listem2);
+        K02_LinkedList sonucListe = birlestir(listem1, listem2);
         //yazdır
         listeYaz(sonucListe);
     }

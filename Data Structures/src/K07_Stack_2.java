@@ -1,9 +1,9 @@
-public class K7_Stack_2 {
+public class K07_Stack_2 {
     //Dizi yapısı ile stack farklı yaklaşım (this.ust=-1)olarak başlandı.
     int[] dizi;
     int kapasite;
     int ust;
-    K7_Stack_2(int kapasite){
+    K07_Stack_2(int kapasite){
         this.kapasite = kapasite;
         this.dizi = new int[kapasite];
         this.ust = -1;
@@ -42,6 +42,6 @@ public class K7_Stack_2 {
     }
 
     public static void main(String[] args) {
-        K7_Stack_2 stack = new K7_Stack_2(3);
+        K07_Stack_2 stack = new K07_Stack_2(3);
     }
 }

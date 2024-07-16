@@ -1,10 +1,10 @@
-public class K6_Stack {
+public class K06_Stack {
     //Dizi yapısı ile stack oluşturmak (ust=0)yaklaşımı.
     int[] array;
     int size;
     int top;
 
-    K6_Stack(int size) {
+    K06_Stack(int size) {
         this.array = new int[size];
         this.size = size;
         this.top = 0;
@@ -15,7 +15,7 @@ public class K6_Stack {
         if (!doluMu()) {
             this.array[top] = data;
             this.top++;
-        } else System.out.println("K6_Stack Doludur.");
+        } else System.out.println("K06_Stack Doludur.");
     }
 
     //Yığından eleman silme işlemi.
@@ -24,7 +24,7 @@ public class K6_Stack {
             this.top--;
             return this.array[top];
         } else {
-            System.out.println("K6_Stack Boştur, Çıkarma işlemi başarısız.");
+            System.out.println("K06_Stack Boştur, Çıkarma işlemi başarısız.");
             return -1;
         }
     }
@@ -61,7 +61,7 @@ public class K6_Stack {
     }
 
     public static void main(String[] args) {
-        K6_Stack stack = new K6_Stack(5);
+        K06_Stack stack = new K06_Stack(5);
         stack.push(1);
         stack.push(2);
         stack.push(3);

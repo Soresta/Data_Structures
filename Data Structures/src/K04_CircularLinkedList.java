@@ -1,8 +1,8 @@
-public class K4_CircularLinkedList {
+public class K04_CircularLinkedList {
     //Dairesel bağlı listeyi oluşturan yapıcı metot ve değişkenleri.
     Node bas;
 
-    private K4_CircularLinkedList() {
+    private K04_CircularLinkedList() {
         bas = null;
     }
 
@@ -118,7 +118,7 @@ public class K4_CircularLinkedList {
     }
 
     public static void main(String[] args) {
-        K4_CircularLinkedList listem = new K4_CircularLinkedList();
+        K04_CircularLinkedList listem = new K04_CircularLinkedList();
         listem.ekle(new Node(1));
         listem.ekle(new Node(5));
         listem.ekle(new Node(-41));

@@ -1,9 +1,9 @@
-class K1_Array {
+class K01_Array {
     int boyut;
     String[] elemanlar;
     int indis;
 
-    public K1_Array(int boyut) {
+    public K01_Array(int boyut) {
         this.elemanlar = new String[boyut];
         this.indis = 0;
         this.boyut = boyut;
@@ -58,7 +58,7 @@ class K1_Array {
     }
     //Test işlemleri
     public static void main(String[] args) {
-        K1_Array dizim = new K1_Array(6);
+        K01_Array dizim = new K01_Array(6);
         dizim.ekle("Sorest");
         dizim.ekle("Furkan");
         dizim.ekle("Ahmet");

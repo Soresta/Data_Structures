@@ -1,7 +1,7 @@
-public class K8_LinkedStack {
+public class K08_LinkedStack {
     Node ust;
 
-    K8_LinkedStack() {
+    K08_LinkedStack() {
         ust = null;
     }
 
@@ -41,7 +41,7 @@ public class K8_LinkedStack {
 
     //verilen bir karakter dizisindeki parantezlerin eşli olup olmadığı çıkın yapısını kullanarak yapınız.
     public static boolean parantezKontrol(String yazi) {
-        K8_LinkedStack stack = new K8_LinkedStack();
+        K08_LinkedStack stack = new K08_LinkedStack();
         for (int i = 0; i < yazi.length(); i++) {
             if (yazi.charAt(i) == '(' || yazi.charAt(i) == '{' || yazi.charAt(i) == '[') {
                 stack.push(new Node(0, yazi.charAt(i)));
@@ -58,10 +58,10 @@ public class K8_LinkedStack {
     //bir yığıtta tam sayılar tutulmaktadır. bu yığıtı kendisine parametre alan ve yığıttaki tek sayıları ayrı bir
     //yığıta ce çift sayıları ayrı bir yığıta atan metodu yazınız.
 
-    public static K8_LinkedStack[] ciftVeTekAyir(K8_LinkedStack input) {
-        K8_LinkedStack tekStack = new K8_LinkedStack();
-        K8_LinkedStack ciftStack = new K8_LinkedStack();
-        K8_LinkedStack[] stackler = {tekStack, ciftStack};
+    public static K08_LinkedStack[] ciftVeTekAyir(K08_LinkedStack input) {
+        K08_LinkedStack tekStack = new K08_LinkedStack();
+        K08_LinkedStack ciftStack = new K08_LinkedStack();
+        K08_LinkedStack[] stackler = {tekStack, ciftStack};
         while (input.ust != null) {
             Node sayi = input.pop();
             if (sayi.icerik % 2 == 0) {
@@ -75,7 +75,7 @@ public class K8_LinkedStack {
     //kendisine parametre olarak bir pozitif tam sayı alan ve yığıt kullanarak sayıyı ters çevirerek döndüren
     //int ters_cevir(int sayi){} metodunu yazınız? sayı 6899 olarak verilirse 9986 olarak döndürcek
     public static int ters_cevir(int sayi) {
-        K8_LinkedStack tmpStack = new K8_LinkedStack();
+        K08_LinkedStack tmpStack = new K08_LinkedStack();
         int sayac = 0;
         int sonuc = 0;
         while (sayi != 0) {
@@ -116,8 +116,8 @@ public class K8_LinkedStack {
     //Bunu yapmak için, yığıtın tepesindeki herhangi bir
     //elemandan daha küçük olan elemanlar yığıttan silinir.
     //alt[4, 20, 15, 15, 8, 5, 7, 12, 3, 10, 5, 0]ust
-    public static void kucuktenBuyuge(K8_LinkedStack stack){
-        K8_LinkedStack tempStack = new K8_LinkedStack();
+    public static void kucuktenBuyuge(K08_LinkedStack stack){
+        K08_LinkedStack tempStack = new K08_LinkedStack();
         while (stack.ust!=null){
             Node stackeAtEleman = stack.pop();
             if (tempStack.bosMu()) tempStack.push(stackeAtEleman);
@@ -138,7 +138,7 @@ public class K8_LinkedStack {
     }
 
     public static void main(String[] args) {
-        K8_LinkedStack stack = new K8_LinkedStack();
+        K08_LinkedStack stack = new K08_LinkedStack();
         stack.push(new Node(4,'a'));
         stack.push(new Node(20,'a'));
         stack.push(new Node(15,'a'));

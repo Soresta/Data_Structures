@@ -1,8 +1,8 @@
-public class K3_DoubleLinkedList {
+public class K03_DoubleLinkedList {
     //Çift yönlü bağlı liste.
     Node bas;
     Node son;
-    private K3_DoubleLinkedList() {
+    private K03_DoubleLinkedList() {
         this.bas = null;
         this.son = null;
     }
@@ -260,7 +260,7 @@ public class K3_DoubleLinkedList {
 
     public static void main(String[] args) {
         //Test işlemleri
-        K3_DoubleLinkedList liste = new K3_DoubleLinkedList();
+        K03_DoubleLinkedList liste = new K03_DoubleLinkedList();
         Node sayi1 = new Node(1);
         Node sayi2 = new Node(2);
         Node sayi3 = new Node(3);
