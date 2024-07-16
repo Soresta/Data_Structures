@@ -28,6 +28,40 @@ Bu repo, çeşitli veri yapıları ve bu yapılar üzerinde kullanılan algoritm
 ## Not:
 Her bir konu altında, ilgili veri yapısı veya algoritmanın nasıl çalıştığını anlatan açıklamalar ve örnekler bulunmaktadır. Eğer bu repo içerisinde bulunmayan özel örnekler veya kodlar eklemek isterseniz, bu konuda herhangi bir sıkıntı yoktur. Ancak eklediğiniz özel örneklerin veya kodların açıklamalarının ve kullanım senaryolarının detaylı bir şekilde belirtilmesi önemlidir. 🚀
 ## Önemli Kaynaklar:
-  Geeks For Geeks Data Structure : https://www.geeksforgeeks.org/data-structures/
-  
-  Data Structures and Algorithms - BroCode : https://www.youtube.com/watch?v=xX5iOYCJmBI&list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8
+Geeks For Geeks Data Structure : https://www.geeksforgeeks.org/data-structures/  
+Data Structures and Algorithms - BroCode : https://www.youtube.com/watch?v=xX5iOYCJmBI&list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8
+
+# Data Structures Examples and Algorithms 📚
+This repository contains various data structures and the algorithms used with these structures. It covers the following topics:
+
+- Arrays
+- Linked List
+- Doubly Linked List
+- Circular Linked List
+- Doubly Circular Linked List
+- Stack
+- Stack 2
+- Linked Stack
+- Queue
+- Linked Queue
+- Hash Tables
+- Binary Search Trees
+- AVL Trees
+- Heaps
+- Graph Data Structure
+- Prim's Algorithm
+- Kruskal's Algorithm
+- Dijkstra's Algorithm
+- Linear Search
+- Binary Search
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Quick Sort
+- Merge Sort
+## Note:
+Each topic includes explanations and examples demonstrating how each data structure or algorithm functions. If you wish to add custom examples or code not currently in this repository, you are welcome to do so. However, it is important to provide detailed explanations and usage scenarios for any additions.🚀
+
+## Important Resources:
+Geeks For Geeks Data Structures: [Link](https://www.geeksforgeeks.org/data-structures/)
+Data Structures and Algorithms - BroCode: [Link](https://www.youtube.com/watch?v=xX5iOYCJmBI&list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8)
