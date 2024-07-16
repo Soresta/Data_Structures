@@ -70,7 +70,7 @@ This repository contains various data structures and the algorithms used with th
 Each topic includes explanations and examples demonstrating how each data structure or algorithm functions. If you wish to add custom examples or code not currently in this repository, you are welcome to do so. However, it is important to provide detailed explanations and usage scenarios for any additions.🚀
 
 ## Important Resources:
-To understand and visualize the algorithms of Stack and Queue structures, you can download and try the App.exe file located at: [Link](https://github.com/Soresta/JavaFX_Sorting_Algorithm_Visualization_App).
+To understand and visualize the algorithms of Stack and Queue structures, you can download and try the App.exe file located at: [Link](https://github.com/Soresta/Stack_And_Queue_Visualization)
 
 To understand and visualize the Sorting Algorithms, you can download and try the Sorting Algorithms.exe file located at: [Link](https://github.com/Soresta/JavaFX_Sorting_Algorithm_Visualization_App).
 
