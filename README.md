@@ -28,6 +28,9 @@ Bu repo, çeşitli veri yapıları ve bu yapılar üzerinde kullanılan algoritm
 ## Not:
 Her bir konu altında, ilgili veri yapısı veya algoritmanın nasıl çalıştığını anlatan açıklamalar ve örnekler bulunmaktadır. Eğer bu repo içerisinde bulunmayan özel örnekler veya kodlar eklemek isterseniz, bu konuda herhangi bir sıkıntı yoktur. Ancak eklediğiniz özel örneklerin veya kodların açıklamalarının ve kullanım senaryolarının detaylı bir şekilde belirtilmesi önemlidir. 🚀
 ## Önemli Kaynaklar:
+Yığıt(Stack) ve Kuyruk(Queue) yapılarının algoritmalarını görsel olarak anlamak ve görmek için : [Link](https://github.com/Soresta/Stack_And_Queue_Visualization)'de bulunan App.exe dosyasını indirip deneyebilirsiniz.
+Sıralama(Sorting) Algoritmalarını görsel olarak görmek ve anlamak için :[Link](https://github.com/Soresta/JavaFX_Sorting_Algorithm_Visualization_App)'de bulunan Sorting Algorithms.exe.exe dosyasını indirip deneyebilirsiniz.
+Bütün algoritmaların Görsel bir şekilde görmek ve deneyimlemek için : [Link](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 Geeks For Geeks Data Structure : [Link](https://www.geeksforgeeks.org/data-structures/)
 Data Structures and Algorithms - BroCode : [Link](https://www.youtube.com/watch?v=xX5iOYCJmBI&list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8)
 
