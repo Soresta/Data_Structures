@@ -36,7 +36,6 @@ Bu repo, çeşitli veri yapıları ve bu yapılar üzerinde kullanılan algoritm
 ## Not:
 Her bir konu altında, ilgili veri yapısı veya algoritmanın nasıl çalıştığını anlatan açıklamalar ve örnekler bulunmaktadır. Eğer bu repo içerisinde bulunmayan özel örnekler veya kodlar eklemek isterseniz, bu konuda herhangi bir sıkıntı yoktur. Ancak eklediğiniz özel örneklerin veya kodların açıklamalarının ve kullanım senaryolarının detaylı bir şekilde belirtilmesi önemlidir. 🚀
 
-## EN
 # Data Structures Examples and Algorithms 📚
 This repository contains various data structures and the algorithms used with these structures. It covers the following topics:
 
