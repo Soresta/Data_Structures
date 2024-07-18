@@ -74,10 +74,10 @@ public class K08_LinkedStack {
 
     //kendisine parametre olarak bir pozitif tam sayı alan ve yığıt kullanarak sayıyı ters çevirerek döndüren
     //int ters_cevir(int sayi){} metodunu yazınız? sayı 6899 olarak verilirse 9986 olarak döndürcek
-    public static int ters_cevir(int sayi) {
+    public static double ters_cevir(int sayi) {
         K08_LinkedStack tmpStack = new K08_LinkedStack();
         int sayac = 0;
-        int sonuc = 0;
+        double sonuc = 0;
         while (sayi != 0) {
             //tmpStack.push(new Node(sayi % 10));
             sayac++;
